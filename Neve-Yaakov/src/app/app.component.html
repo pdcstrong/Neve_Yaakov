@@ -1,0 +1,62 @@
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top mb-5">
+    <a class="navbar-brand" href="#">
+      <img src="assets\transperant-logo.png" height="30" >
+    </a>
+    <a class="navbar-brand" href="#">מינהל קהילתי נווה יעקב</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> 
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ">
+        <li class="nav-item active">
+          <a routerLink="" [class.activated]="currentUrl == '/'" class="nav-link" href="#">דף הבית <span class="sr-only">(current)</span></a>
+        </li>  
+        <li class="nav-item ">
+          <a routerLink="events" [class.activated]="currentUrl == '/events'" class="nav-link" href="#">לוח אירועים <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item ">
+          <a routerLink="news" [class.activated]="currentUrl == '/news'" class="nav-link" href="#">חדשות המינהל <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item ">
+          <a routerLink="family" [class.activated]="currentUrl == '/family'" class="nav-link" href="#">משפחה וגיל הרך <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" 
+          role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            חוגים
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a routerLink="women" [class.activated]="currentUrl == '/women'" class="dropdown-item" href="#">נשים</a>
+            <a routerLink="men" [class.activated]="currentUrl == '/men'" class="dropdown-item" href="#">גברים</a>
+            <div class="dropdown-divider"></div>
+            <a routerLink="boys" [class.activated]="currentUrl == '/boys'" class="dropdown-item" href="#">בנים</a>
+            <a routerLink="girls" [class.activated]="currentUrl == '/girls'" class="dropdown-item" href="#">בנות</a>
+          </div>
+        </li>
+        <li class="nav-item ">
+          <a routerLink="contact" [class.activated]="currentUrl == '/contact'" class="nav-link" href="#">צור קשר <span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+      
+    </div>
+  </nav>
+</header>
+
+<main>
+  <router-outlet></router-outlet>  
+</main>
+<!-- Footer -->
+<footer id="myFooter">
+  <div class="container">
+        
+            <h6 id="footer-title"> <img src="assets\transperant-logo.png" height="30" >
+            מינהל קהילתי נווה יעקב | Israel | 025838974</h6>
+    
+  </div>
+  <div class="footer-copyright">
+      <p>© 2018 Copyright DROR </p>
+  </div>
+</footer>
+<!-- Footer -->

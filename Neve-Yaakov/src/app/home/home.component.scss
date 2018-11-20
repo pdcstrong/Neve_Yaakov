@@ -1,0 +1,79 @@
+@import './src/theme.scss';
+
+h1 {
+    color: map-get($map: $colors, $key:primary );
+    direction: rtl;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
+}
+h2 {
+    color: map-get($map: $colors, $key:primary );
+    direction: rtl;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+div {
+    text-align: right;
+}
+.s1 {
+    color: red;
+}
+.s2 {
+    color: #00C851;
+}
+.s3 {
+    color: #FF8800;
+}
+
+.content {
+    text-align: left;
+}
+
+.carousel {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+carouselExampleIndicators {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.carousel-inner > .carousel-item > a > img {
+    width:420px;
+    height:360px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  img:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+img {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.thumbnails {
+    height: 100px;
+    width: 150px;
+}
+
+.poster {
+    height: 370px;
+    width: 540px;
+}
+
+button {
+    background-color: map-get($map: $colors, $key:accent );
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+button:focus {outline:0;}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #e9ecef;
+}

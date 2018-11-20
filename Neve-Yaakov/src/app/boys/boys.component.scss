@@ -1,0 +1,14 @@
+@import './src/theme.scss';
+
+.card {
+    margin-top: 15px !important;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #e9ecef;
+}
+
+
+button {
+    float: left;
+}

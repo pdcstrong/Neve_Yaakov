@@ -1,0 +1,354 @@
+<div class="container ">
+  <!--Grid row-->
+  <div class="row">
+
+    <!--Grid column-->
+    <div class="col-md-7 mb-4">
+      <!-- carousle 2 -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a routerLink="events" [class.activated]="currentUrl == '/events'" href="#">
+              <img class="d-block w-100" src="assets\events\timeBank.jpg" alt="First slide">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a routerLink="family" [class.activated]="currentUrl == '/family'" href="#">
+              <img class="d-block w-100" src="assets\family\playGround.jpg" alt="Second slide">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a routerLink="news" [class.activated]="currentUrl == '/news'" href="#">
+              <img class="d-block w-100" src="assets\news\business.jpg" alt="Third slide">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a routerLink="events" [class.activated]="currentUrl == '/events'" href="#">
+              <img class="d-block w-100" src="assets\slides\womenNight.jpg" alt="Third slide">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a routerLink="family" [class.activated]="currentUrl == '/family'" href="#">
+              <img class="d-block w-100" src="assets\slides\baby-club.jpg" alt="Third slide">
+            </a>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- end carousle 2 -->
+
+    </div>
+    <!-- column 1 end -->
+    <!-- column 2 -->
+    <div class="col-md-5 mb-4">
+
+      <!-- כותרת שער -->
+
+
+      <div class="card" style="width: 30rem;">
+        <div class="card-body">
+          <h1>מינהל קהילתי נווה יעקב</h1>
+          <h2><span class="s1"> קהילה </span>
+            <span class="s2"> בשיתוף </span>
+            <span class="s3"> פעולה </span>
+          </h2>
+
+          <hr>
+          <p class="lead">ברוכים הבאים לאתר החדש של המינהל בו תוכלו להתעדכן על החוגים והפעילויות בקהילה</p>
+          <div class="content">
+            <p>להצטרפות לרשימת דיוור במייל :</p>
+            <button mat-raised-button>
+              <a target="_blank" rel="noopener noreferrer" href="http://neveyaakov.activetrail.biz/landing-page">לחץ כאן</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- סוף כותרת שער -->
+
+
+    </div>
+    <!--Grid column 2 -->
+  </div>
+
+
+  <hr class="my-3">
+
+  <!--Section: Magazine v.1-->
+  <section class="wow fadeIn">
+
+    <!--Section heading-->
+    <h2 class="h1 text-center my-3 font-weight-bold">לוח המודעות</h2>
+
+    <!--Grid row-->
+    <div class="row text-left">
+
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-12">
+
+        <!--Image-->
+        <div class="view overlay rounded z-depth-1-half mb-3">
+          <img src="assets\events\walking_forest.jpg" class="img-fluid poster" alt="Sample post image">
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+
+        <!--Excerpt-->
+        <div class="news-data">
+          <a href="" class="light-blue-text">
+            <h6>
+              <i class="fa fa-plane"></i>
+              <strong> טיולים</strong>
+            </h6>
+          </a>
+          <p>
+            <strong>
+              <i class="fa fa-clock-o"></i> 20/08/2018</strong>
+          </p>
+        </div>
+        <h3>
+          <a>
+            <strong>הליכה רגלית מיער עמינדב לגן החיות</strong>
+          </a>
+        </h3>
+        <p> Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
+          placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+        </p>
+
+        <!--/Featured news-->
+
+        <hr>
+
+        <!--Small news-->
+        <div class="row">
+          <div class="col-md-3">
+
+            <!--Image-->
+            <div class="view overlay rounded z-depth-1">
+              <img src="assets\chugim\noah_arc.jpg" class="img-fluid thumbnails" alt="Minor sample post image">
+              <a>
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+          </div>
+
+          <!--Excerpt-->
+          <div class="col-md-9">
+            <p class="dark-grey-text">
+              <strong>19/08/2018</strong>
+            </p>
+            <a>חוג תיבת נח של שלמה
+              <i class="fa fa-angle-right float-right"></i>
+            </a>
+          </div>
+
+        </div>
+        <!--/Small news-->
+
+        <hr>
+
+        <!--Small news-->
+        <div class="row">
+          <div class="col-md-3">
+
+            <!--Image-->
+            <div class="view overlay rounded z-depth-1">
+              <img src="assets\chugim\painting.jpg" class="img-fluid thumbnails" alt="Minor sample post image">
+              <a>
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+          </div>
+
+          <!--Excerpt-->
+          <div class="col-md-9">
+            <p class="dark-grey-text">
+              <strong>18/08/2018</strong>
+            </p>
+            <a>ציור באקריליק
+              <i class="fa fa-angle-right float-right"></i>
+            </a>
+          </div>
+
+        </div>
+        <!--/Small news-->
+
+        <hr>
+
+        <!--Small news-->
+        <div class="row">
+          <div class="col-md-3">
+
+            <!--Image-->
+            <div class="view overlay rounded z-depth-1">
+              <img src="assets\chugim\acting.jpg" class="img-fluid thumbnails" alt="Minor sample post image">
+              <a>
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+          </div>
+
+          <!--Excerpt-->
+          <div class="col-md-9">
+            <p class="dark-grey-text">
+              <strong>17/08/2018</strong>
+            </p>
+            <a>16 מפגשים של התנסות בעולם המשחק
+              <i class="fa fa-angle-right float-right"></i>
+            </a>
+          </div>
+
+        </div>
+        <!--/Small news-->
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-12">
+
+        <!--Image-->
+        <div class="view overlay rounded z-depth-1-half mb-3">
+          <img src="assets\sport\boys\sport_banner.jpg" class="img-fluid poster" alt="Sample post image">
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+
+        <!--Excerpt-->
+        <div class="news-data">
+          <a href="" class="light-blue-text">
+            <h6>
+              <i class="fa fa-plane"></i>
+              <strong> ספורט</strong>
+            </h6>
+          </a>
+          <p>
+            <strong>
+              <i class="fa fa-clock-o"></i> 20/08/2018</strong>
+          </p>
+        </div>
+        <h3>
+          <a>
+            <strong>מרכז הספורט בתנופה</strong>
+          </a>
+        </h3>
+        <p> Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
+          placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+        </p>
+
+        <!--/Featured news-->
+
+        <hr>
+
+        <!--Small news-->
+        <div class="row">
+          <div class="col-md-3">
+
+            <!--Image-->
+            <div class="view overlay rounded z-depth-1">
+
+              <a routerLink="boys" [class.activated]="currentUrl == '/boys'" href="#">
+                <img src="assets\sport\boys\basketball.jpg" class="img-fluid thumbnails" alt="Minor sample post image">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+          </div>
+
+          <!--Excerpt-->
+          <div class="col-md-9">
+            <p class="dark-grey-text">
+              <strong>19/08/2018</strong>
+            </p>
+            <a>כדורסל כיתות ד' - ה'
+              <i class="fa fa-angle-right float-right"></i>
+            </a>
+          </div>
+
+        </div>
+        <!--/Small news-->
+
+        <hr>
+
+        <!--Small news-->
+        <div class="row">
+          <div class="col-md-3">
+
+            <!--Image-->
+            <div class="view overlay rounded z-depth-1">
+
+              <a routerLink="women" [class.activated]="currentUrl == '/women'" href="#">
+                <img src="assets\sport\women\ground_workout.jpg" class="img-fluid thumbnails" alt="Minor sample post image">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+          </div>
+
+          <!--Excerpt-->
+          <div class="col-md-9">
+            <p class="dark-grey-text">
+              <strong>18/08/2018</strong>
+            </p>
+            <a>התעמלות קרקע לבנות
+              <i class="fa fa-angle-right float-right"></i>
+            </a>
+          </div>
+
+        </div>
+        <!--/Small news-->
+
+        <hr>
+
+        <!--Small news-->
+        <div class="row">
+          <div class="col-md-3">
+
+            <!--Image-->
+            <div class="view overlay rounded z-depth-1">
+
+              <a routerLink="boys" [class.activated]="currentUrl == '/boys'" href="#">
+                <img src="assets\sport\boys\self_defence.jpg" class="img-fluid thumbnails" alt="Minor sample post image">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+          </div>
+
+          <!--Excerpt-->
+          <div class="col-md-9">
+            <p class="dark-grey-text">
+              <strong>17/08/2018</strong>
+            </p>
+            <a>Voluptatem accusantium doloremque
+              <i class="fa fa-angle-right float-right"></i>
+            </a>
+          </div>
+
+        </div>
+        <!--/Small news-->
+
+      </div>
+      <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+  </section>
+  <!--/Section: Magazine v.1-->
+
+
+
+</div>

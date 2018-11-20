@@ -1,0 +1,16 @@
+@import './src/theme.scss';
+
+.card > img {
+    max-height: 240px;
+    // width: 350px;
+}
+
+button {
+    float: left;
+}
+
+a > img:hover {
+    opacity: 0.6; 
+    transition: 0.5s;
+    
+}
